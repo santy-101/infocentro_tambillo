@@ -1,0 +1,27 @@
+<div class ="container">
+<h2>Registrar un Libro</h2>
+
+<form action="/Libro/CrearLibro" method="post">
+
+  <div class="form-group">
+    <label>Nombre</label>
+    <input type="text" class="form-control" placeholder="Ingrese el nombre del libro" name="nombre" required>
+  </div>
+
+  <div class="form-group">
+    <label>Autor(es)</label>
+    <input type="text" class="form-control" placeholder="Ingrese los autores del libro" name="autor" required>
+  </div>
+
+  <div class="form-group">
+    <label>Cantidad</label>
+    <input type="number" min="1" class="form-control" placeholder="Ingrese la cantidad de libros" name="cantidad" required>
+  </div>
+
+  <button type="submit" class="btn btn-success">Registrar libro</button>
+
+</form>
+</div>
+
+
+
